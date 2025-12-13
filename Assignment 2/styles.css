@@ -1,0 +1,135 @@
+
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Add in your own customisations */
+
+
+/* ===== Header band that includes both the title and logo ===== */
+.header-band {
+    background-color: #93d0f4;   /* (1) header background */
+    text-align: center;          /* (2) center text & image */
+    padding: 18px 16px 18px;     /* pleasant spacing */
+}
+
+/* Title styling inside the band */
+.header-band h1 {
+    color: #fff;                 /* good contrast */
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;         /* spacing before logo */
+}
+
+/* Logo is centered because the parent uses text-align:center */
+.header-band img {
+    display: inline-block;       /* works well with text-align:center */
+    height: 120px;               /* matches your HTML intent */
+}
+
+/* ===== Section headings (bonus polish) ===== */
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 18px 0 8px;
+}
+
+/* ===== Table styling per grading ===== */
+table {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;      /* (3) table border */
+    border-collapse: collapse;   /* (4) shared borders */
+    margin-bottom: 16px;
+}
+
+th, td {
+    border: 1px solid #ddd;      /* (3) contents border */
+    padding: 10px;               /* (5) cell padding */
+    text-align: left;            /* (6) left alignment */
+    vertical-align: top;         /* bonus: tidy multi-line cells */
+}
+
+/* ===== Links ===== */
+a {
+    color: #0079c1;              /* (7) hyperlink colour */
+    text-decoration: none;
+}
+a:hover { text-decoration: underline; } /* bonus */
+
+/* ===== Footer ===== */
+footer {
+    background-color: #93d0f4;   /* (8) footer background */
+    text-align: center;          /* (9) center text */
+    padding: 10px 16px;          /* (10) 10px top/bottom */
+    color: #fff;                 /* bonus: contrast */
+    margin-top: 20px;
+}
+footer p { margin: 0; font-size: 12px; }
+
+
+
+/* ===== SECTION HEADINGS (bonus polish) ===== */
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 18px 0 8px;
+}
+
+/* ===== TABLE ===== */
+/* 3) Border 1px solid #ddd for table and contents */
+/* 4) Shared borders via border-collapse */
+/* 5) Padding 10px for all cells */
+/* 6) Text aligned left */
+table {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-collapse: collapse; /* shared borders */
+    margin-bottom: 16px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* ===== LINKS ===== */
+/* 7) Hyperlink color #0079c1 */
+a {
+    color: #0079c1;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline; /* bonus */
+}
+
+/* ===== FOOTER ===== */
+/* 8) Footer background #93d0f4 */
+/* 9) Footer text aligned center */
+/* 10) Footer padding top/bottom 10px */
+footer {
+    background-color: #93d0f4;
+    text-align: center;
+    padding: 10px 16px;
+    color: #fff; /* bonus: contrast */
+    margin-top: 20px;
+}
+
+/* Optional: footer text size */
+footer p {
+    margin: 0;
+    font-size: 12px;
+}
